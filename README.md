@@ -21,11 +21,11 @@ Desarrollada con **Node.js**, **Express** y **EJS**.
    git clone [https://github.com/Luigii17/landing-mkm.git](https://github.com/Luigii17/landing-mkm.git)
 
 2. Instalar dependencias:
-	bash
+	```bash
 	npm install
 	
 3. Iniciar el servidor:
-	bash
+	```bash
 	npm start
 
 4. Abrir en el navegador: https://localhost:3000
