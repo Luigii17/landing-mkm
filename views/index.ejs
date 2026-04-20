@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<title>MKM Cubiertas</title>
+</head>
+<body>
+	<header class="navbar">
+		<div class="logo-container">
+			<h1>MKM Cubiertas</h1>
+			<img src="assets/icons/logo.svg" alt="logo mkm" class="logo-img">
+		</div>
+	</header>
+	<section class="projects">
+		<h2>Nuestros Proyectos</h2>
+		<div class="grid-container">
+			<div class="grid-item tall">
+				<img src="assets/img/Estructura_Exterior.webp" alt="Estructura Exterior">
+				<div class="overlay"><span>Estructura Exterior</span></div>
+			</div>
+			<div class="grid-item">
+				<img src="assets/img/Terraza_residencial.webp" alt="Terraza Moderna	1">
+				<div class="overlay"><span>Terraza Residencial</span></div>
+			</div>
+			<div class="grid-item	wide">
+				<img src="assets/img/Pergola_Premium.webp" alt="Pergola Premium">
+				<div class="overlay"><span>Pergola Premium</span></div>
+			</div>
+			<div class="grid-item wide">
+				<img src="assets/img/Techo_Minimalista.webp" alt="Techo Minimalista">
+				<div class="overlay"><span>Diseño Minimalista</span></div>
+			</div>
+	</section>
+
+	<section id="catalogMaterial" class="material-section">
+		<h2 class="section-title">Nuestros Materiales Premium</h2>
+			<div class="products-container">
+				<div class="product-card" data-product="wallcladding">
+					<div class="product-img">
+						<img src="assets/img/wallcladdingCoex.webp" alt="Wallcladding Coextruido">
+					</div>
+					<div class="product-info">
+						<h3>Wallcladding Coextruido</h3>
+						<p class="specs">2.72 Pzas x M2 | 2.2cm x 15cm x 2.44m</p>
+						<p class="price">$890.00 / m2</p>
+						<div class="colors">
+							<p>Colores:</p>
+							<span class="dot mahogany" title="Mahogany"></span>
+							<span class="dot teak" title="Teak"></span>
+							<span class="dot ash" title="Ash Grey"></span>
+							<span class="dot offWhite" title="Off White"></span>
+							<span class="dot maple" title="Maple"></span>
+							<span class="dot dark" title="Dark Grey"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-card" data-product="viga-wpc">
+					<div class="product-img">
+						<img src="assets/img/vigaWPC.webp" alt="Viga WPC">
+					</div>
+					<div class="product-info">
+						<h3>Viga WPC</h3>
+						<p class="specs"> 5cm x 10cm x 3m |</p>
+						<p class="price">$700.00 / Pza</p>
+						<div class="colors">
+							<p>Colores:</p>
+							<span class="dot nogal" title="Nogal"></span>
+							<span class="dot nuez" title="Nuez"></span>
+							<span class="dot carbon" title="Carbon"></span>
+						</div>
+					</div>
+				</div>
+				<div class="product-card" data-product="deck-coextruido">
+					<div class="product-img">
+						<img src="assets/img/deckCoextruido.webp" alt="Deck Coextruido">
+					</div>
+					<div class="product-info">
+						<h3>Deck Coextruido</h3>
+						<p class="specs"> 2.93 Pzas x m2 | 2.3cm x 14cm x 2.44m</p>
+						<p class="price">$1020.00 x m2</p>
+						<div class="colors">
+							<p>Colores:</p>
+							<span class="dot mahogany" title="Mahogany"></span>
+							<span class="dot teak" title="Teak"></span>
+							<span class="dot ash" title="Ash Grey"></span>
+							<span class="dot offWhite" title="Off White"></span>
+							<span class="dot maple" title="Maple"></span>
+							<span class="dot dark" title="Dark Grey"></span>
+						</div>
+					</div>
+				</div>
+				<div class="product-card" data-product="deck-extruido">
+					<div class="product-img">
+						<img src="assets/img/DEckCoex.webp" alt="Deck Extruido">
+					</div>
+					<div class="product-info">
+						<h3>Deck Extruido</h3>
+						<p class="specs"> 3.26 Pzas x m2 | 2.2cm x 14.5cm x 2.10m</p>
+						<p class="price">$900.00 x m2</p>
+						<div class="colors">
+							<p>Colores:</p>
+							<span class="dot nogal" title="Nogal"></span>
+							<span class="dot nuez" title="Nuez"></span>
+							<span class="dot carbon" title="Carbon"></span>
+						</div>
+					</div>
+				</div>
+	</section>
+
+	<section id="contacto" class="contact-section">
+    <h2>Cotiza tu Proyecto</h2>
+    <form action="/cotizar" method="POST" id="contacto-form">
+        <input type="text" name="nombre" placeholder="Tu Nombre" required>
+        <input type="email" name="email" placeholder="Tu Correo" required>
+				<div class="interes-container">
+					<p>¿Qué materiales te interesan? (Puedes elegir varios)</p>
+					<div class="checkout-group">
+						<label><input type="checkbox" name="interes" value="wallcladding"></label>
+						<label><input type="checkbox" name="interes" value="viga-wpc"></label>
+						<label><input type="checkbox" name="interes" value="deck-coextruido"></label>
+						<label><input type="checkbox" name="interes" value="deck-extruido"></label>
+
+					</div>
+        </div>
+
+        <textarea name="mensaje" placeholder="Cuéntanos sobre tu terraza"></textarea>
+        <button type="submit" class="btn-cotizar">Cotizar</button>
+    </form>
+</section>
+	<script src="js/main.js"></script>
+	<%- include("footer.ejs") %>
+</body>
+</html>
