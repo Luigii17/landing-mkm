@@ -28,4 +28,4 @@ Desarrollada con **Node.js**, **Express** y **EJS**.
 	```bash
 	npm start
 
-4. Abrir en el navegador: https://localhost:3000
+4. Abrir en el navegador: http://localhost:3000
